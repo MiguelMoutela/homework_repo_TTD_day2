@@ -98,9 +98,9 @@ class Functions_Practice < MiniTest::Test
     #Arrange
       #nothing to add
     #Act
-    farenheit_to_celcius_result = farenheit(32)
+    fahrenheit_to_celsius_result = celsius(32)
     #Assert
-    assert_equal(0, farenheit_to_celcius_result)
+    assert_equal(0, fahrenheit_to_celsius_result)
   end
 
 
