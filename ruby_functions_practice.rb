@@ -31,7 +31,7 @@ def string_as_number(string_1, string_2)
 end
 
 def number_to_full_name(number)
-   case month_name
+  case month_name
    when number = 1
       return "January"
    when number = 2
@@ -55,5 +55,6 @@ def number_to_full_name(number)
    when number = 11
       return "November"
    when number = 12
-      return "December" 
+      return "December"
+  end
 end
