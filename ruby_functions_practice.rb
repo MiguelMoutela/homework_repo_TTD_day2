@@ -60,6 +60,10 @@ def number_to_short_month_name(number)
    end
   end
 
-def cube(side)
+def cube (side)
   return side**3
+end
+
+def volume (radius)
+  return (4/3)*Math::PI*radius**3
 end

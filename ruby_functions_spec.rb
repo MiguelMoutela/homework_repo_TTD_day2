@@ -87,7 +87,7 @@ class Functions_Practice < MiniTest::Test
     #Arrange
       #nothing to add
     #Act
-    volume_of_sphere_result = radius(1)
+    volume_of_sphere_result = volume(1)
     #Assert
     assert_equal((4/3)*Math::PI, volume_of_sphere_result)
   end
