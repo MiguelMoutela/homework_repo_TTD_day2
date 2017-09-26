@@ -78,7 +78,7 @@ class Functions_Practice < MiniTest::Test
     #Act
     volume_of_cube_result = cube(3)
     #Assert
-    assert_equal(9, volume_of_cube_result)
+    assert_equal(27, volume_of_cube_result)
   end
 
   #Given the radius of a sphere calculate the volume
@@ -87,7 +87,7 @@ class Functions_Practice < MiniTest::Test
     #Arrange
       #nothing to add
     #Act
-    volume_of_sphere_result() = radius(1)
+    volume_of_sphere_result = radius(1)
     #Assert
     assert_equal((4/3)*Math::PI, volume_of_sphere_result)
   end
