@@ -32,7 +32,7 @@ end
 
 def number_to_full_name(number)
 
-  case month_name
+  case number
    when number = 1
       return "January"
 
