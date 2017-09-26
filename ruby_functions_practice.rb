@@ -5,3 +5,7 @@ end
 def add (firstnumber, secondnumber)
   return firstnumber + secondnumber
 end
+
+def subtract (firstnumber, secondnumber)
+  return firstnumber - secondnumber
+end
