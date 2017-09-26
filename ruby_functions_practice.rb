@@ -44,3 +44,18 @@ def number_to_full_month_name(number)
 
   end
 end
+
+def number_to_short_month_name(number)
+
+  case number
+   when number = 1
+      return "Jan"
+
+   when number = 3
+      return "Mar"
+
+   when number = 9
+      return "Sep"
+
+   end
+  end
