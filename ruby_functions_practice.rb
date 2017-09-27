@@ -65,9 +65,10 @@ def cube(side)
 end
 
 def volume (radius)
-  return (4/3)*Math::PI*radius**3
+  volume = (4.0/3.0)*Math::PI*radius**3
+  return volume.round(2)
 end
 
 def celsius(fahrenheit)
-  return ((fahrenheit - 32) / (5/9))
+  return ((fahrenheit - 32) / (5.0/9.0))
 end

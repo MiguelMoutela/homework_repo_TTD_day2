@@ -65,9 +65,11 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "Mar", third_month_string )
     assert_equal( "Sep", ninth_month_string )
   end
-
-
-
+# def number_to_short_month_name (number)
+# => full_month_name = number_to_full_month_name(number)
+# => return full_month_name.slice(0,3)
+# => return full_month_name.name[0..2]
+# => end
   #Further
 
   #Given the length of a side of a cube calculate the volume
@@ -89,7 +91,7 @@ class Functions_Practice < MiniTest::Test
     #Act
     volume_of_sphere_result = volume(1)
     #Assert
-    assert_equal((4/3)*Math::PI, volume_of_sphere_result)
+    assert_equal(4.19, volume_of_sphere_result)
   end
 
   #Given a value in farenheit, convert this into celsius.
